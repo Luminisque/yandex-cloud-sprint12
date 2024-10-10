@@ -1,0 +1,6 @@
+---
+- hosts: all
+  roles:
+    - default_packages
+    - nginx_custom
+    - setup_proxy_nginx
